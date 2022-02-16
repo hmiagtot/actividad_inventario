@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+}
+
+#login-card {
+    margin-top: 180px;
+    margin-left: 400px;
+    height: 450px;
+    background-color: white;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#login-content {
+    box-sizing: content-box;
+    margin-left: 40px;
+}
+
+input {
+    margin-top: 30px;
+}
+
+input[name=nombre]{
+    margin-top: 100px;
+}
+input[type=submit]{
+    background-color: blue;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
